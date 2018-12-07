@@ -14,5 +14,6 @@ djangorestframework = "*"
 gunicorn = "*"
 django-heroku = "*"
 
+
 [requires]
 python_version = "3.7"
