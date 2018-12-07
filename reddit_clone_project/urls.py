@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^$', views.FrontendAppView.as_view())  # New URL for the index route
 ]
